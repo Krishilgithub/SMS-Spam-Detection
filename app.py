@@ -1,9 +1,9 @@
 import streamlit as st
 import pickle
-import nltk
-from nltk.corpus import stopwords
+import nltk   #type: ignore
+from nltk.corpus import stopwords   #type: ignore
 import string
-from nltk.stem import PorterStemmer
+from nltk.stem import PorterStemmer   #type: ignore
 
 # Configure NLTK data path for deployment
 import os
